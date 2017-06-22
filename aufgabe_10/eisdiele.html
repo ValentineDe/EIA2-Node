@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="design.css" type="text/css" media="screen" />
+<script src="aufg_9.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+
+	<form id="eisshop" action="https://eia2nodecode.herokuapp.com/" method="get">
+
+		<header>
+			<img id="menu" src="images/menu.png" alt="menu">
+			<div>Valentine's ICE CREAM Shop</div>
+		</header>
+
+
+		<main> <img id="titelbild" src="images/ice-cream.jpg"
+			alt="titelbild"> <br>
+		<div id="bestellbogen">
+			<p>Bitte fülle dieses Bestellformular aus, um Deine eigene
+				Eissorte zu kreieren!</p>
+			<br>
+			<fieldset id="flavors">
+				<legend>Eissorten</legend>
+			</fieldset>
+
+			<fieldset id="toppings">
+				<legend>Toppings</legend>
+			</fieldset>
+
+			<fieldset id="container">
+				<legend>Behältnis</legend>
+			</fieldset>
+
+
+
+
+			<fieldset id="select">
+				<legend>Zusammensetzung</legend>
+
+				<h3>Besondere Zusammensetzung</h3>
+				<select name="Select" id="select">
+					<optgroup label="Vegane Optionen"></optgroup>
+					<option value="option1">glutenfrei</option>
+					<option value="option2" selected>laktosefrei</option>
+					<option value="option4">Sorbeé-Eis</option>
+					<optgroup label="Vegetarische Optionen"></optgroup>
+					<option value="option3">High-Protein</option>
+					<option value="option4">Low-Carb</option>
+					<option value="option4">Joghurt-Basis</option>
+				</select>
+			</fieldset>
+			<fieldset id="text">
+				<legend>Name Deiner Eiskreation</legend>
+				<input type="text" name="Text" placeholder="z.B. Einhornpups..."
+					required />
+			</fieldset>
+		</div>
+		<br>
+
+		<fieldset class="Daten">
+			<legend> Persönliche Daten </legend>
+
+			<h3>Bitte wählen Deine Anrede:</h3>
+
+			<input type="radio" name="Radiogroup" value="Herr" id="radio1" /> <label
+				for="radio1">Herr</label> <input type="radio" name="Radiogroup"
+				value="Frau" id="radio2" /> <label for="radio2">Frau</label> <input
+				type="text" name="Name" placeholder="Name, Vorname" required
+				id="name" />
+			<hr />
+
+			<h3>Lieferadresse:</h3>
+			<input type="text" name="Adress" placeholder="Straße und Hausnr."
+				required id="adress" /> <input type="text" name="Country"
+				placeholder="PLZ, Ort" required id="country" />
+			<hr />
+			<h3>So können wir Dich kontaktieren:</h3>
+			<input type="number" name="number" placeholder="Telefonnummer"
+				required /> <input type="email" name="Mail"
+				placeholder="E-Mail Adresse" />
+			<hr>
+			<h3>Hast Du noch Fragen?</h3>
+			<textarea name="Area" cols="30" rows="3"
+				placeholder="Sonstige Anmerkungen"></textarea>
+			<hr>
+
+			<h3>Zahlungsart:</h3>
+			<input type="radio" name="Radiogroup" value="radio1" id="radio1" />
+			<label for="radio1">PayPal</label> <input type="radio"
+				name="Radiogroup" value="radio2" id="radio2" /> <label for="radio2">Lastschrift</label>
+			<input type="radio" name="Radiogroup" value="radio2" id="radio2" />
+			<label for="radio2">Vorkasse</label> <input type="radio"
+				name="Radiogroup" value="radio2" id="radio2" /> <label for="radio2">Kreditkarte</label>
+		</fieldset>
+
+		<div id="order">
+			<h4>Bestellübersicht</h4>
+			<p id="kreation"></p>
+
+			<hr>
+			<p>Summe:</p>
+			<p id="summe"></p>
+		</div>
+
+		<button id="send" name="Button" type="button">Auftrag
+			abschicken</button>
+		</main>
+	</form>
+</body>
+</html>

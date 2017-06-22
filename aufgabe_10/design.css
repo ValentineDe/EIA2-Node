@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css?family=Parisienne|Pinyon+Script');	
+
+@media screen and (min-width:320px){
+	
+
+* {
+	display: block;
+	vertical-align: top;
+	margin: 0%;
+}
+
+main{
+	font-family: 'Century Gothic';
+	font-size: 0.8em;
+}
+
+html {
+	background-color:#FFF3FF;
+}
+
+header {
+	width:100%;
+	
+	padding:0.3em;
+	padding-left:0em;
+	background-color: #FFD3FE;
+	font-family: 'Love Me', cursive;
+	text-align:right;
+	position: fixed;	
+}
+input[type="radio"], input[type="checkbox"], label {
+	display: inline;
+	font-size: 1em;
+}
+
+legend{
+	font-size: 1.5em;
+}
+
+h3{
+	font-size: 1em;
+}
+#titelbild{
+	max-width:100%;
+	
+}
+label::after {
+	content:"";
+	display: block;
+}
+
+#bestellformular{
+	max-width: 80%;
+}
+
+#einkaufswagen{
+	background-color: white;
+	border: 2px solid grey;
+	width:40%;
+	height: 540px;
+	position: absolute;
+	left: 58%;
+	top: 68%;
+}
+
+#menu{
+	width:30px;
+	position:fixed;
+	margin-left:1em;
+}
+
+
+.Daten{
+	background:#E6E0F8;
+}
+
+
+h4{
+	font-size: 1.5em;
+	font-weight: normal;
+	padding:0.5em;
+}
+
+
+#order{
+	background-color:#FFD3FE;
+	border: 2px solid grey;
+	padding:1em;
+}
+
+#summe{
+	font-weight: bold;
+	color: #819FF7;
+}
+
+}
