@@ -1,9 +1,9 @@
 {
-	"name" : "name-of-project",
-	"version" : "0.0.0",
-	"description" : "enter a description of the project here",
-	"author" : "enter your name here",
-	"main" : "filename-of-main-script.js",
+	"name" : "EIA2-Code",
+	"version" : "0.0.1",
+	"description" : "EIA2 macht mich fertig...",
+	"author" : "Valentine Deinert",
+	"main" : "NodeTest.js",
 	"scripts" : {
 		"start" : "node aufgabe_10/NodeTest.js"
 	},
