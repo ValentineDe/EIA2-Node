@@ -1,7 +1,7 @@
 {
 	"name" : "EIA2-Code",
 	"version" : "0.0.1",
-	"description" : "EIA2 macht mich fertig...",
+	"description" : "EIA2-Nodes",
 	"author" : "Valentine Deinert",
 	"main" : "NodeTest.js",
 	"scripts" : {

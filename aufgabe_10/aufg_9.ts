@@ -65,7 +65,7 @@ namespace Form {
         input.setAttribute("value", "0");
         input.min = "0";
         label.id = _flavor;
-
+        input.name = "Eissorte";
         label.appendChild(input);
         f.appendChild(label);
         inputsFlavor.push(input);
@@ -80,6 +80,7 @@ namespace Form {
         label.innerText = _toppings;
         input.type = "checkbox";
         label.id = _toppings;
+        input.name = "Topping";
         label.appendChild(input);
         t.appendChild(label);
         inputsTopping.push(input);
@@ -93,7 +94,7 @@ namespace Form {
 
         label.innerText = _container;
         label.id = _container;
-        input.name = "container";
+        input.name = "Behälter";
         input.type = "radio";
 
         label.appendChild(input);
