@@ -3,7 +3,7 @@
 	"version" : "0.0.1",
 	"description" : "EIA2-Nodes",
 	"author" : "Valentine Deinert",
-	"main" : "NodeTest.js",
+	"main" : "eisdiele.html",
 	"scripts" : {
 		"start" : "node aufgabe_10/NodeTest.js"
 	},
