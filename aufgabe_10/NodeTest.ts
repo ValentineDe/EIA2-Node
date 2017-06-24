@@ -33,9 +33,8 @@ function handleRequest(_request: Http.IncomingMessage, _response: Http.ServerRes
 //        _response.write(key + ":" + query[key]);
 //    }
 
-    _response.write("Herzlichen Glückwunsch! Deine Bestellung wurde versandt!"+"<br>");
-     _response.write("Deine Bestellung: " +"<br>"+ query["Eissorte"]+"<br>"+ query["Topping"]+"<br>"+ query["Behälter"]+"<br>");
-    _response.write("Deine Bestellung geht an folgende Lieferadresse: "+"<br>" + query["Anrede"] + query["Name, Vorname"] +"<br>" + query["Adresse"] + "<br>"+ query["PLZ,Ort"] + "<br>");
+    _response.write("Herzlichen Glückwunsch! Deine Bestellung wurde versandt!"+"<br>"+"<br>");
+    _response.write("Deine Bestellung geht an folgende Lieferadresse: "+"<br>"+"<br>" + query["Anrede"]+"<br>" + query["Name, Vorname"] +"<br>" + query["Adresse"] + "<br>"+ query["PLZ,Ort"] + "<br>"+ "<br>");
     _response.write("Wir kontktieren Dich auf folgendem Weg falls es Verzögerungen gibt: " + query["Telefonnummer"]+"<br>" );
     _response.write("Du erhälst eine Bestellbestätigung an folgende Mail: " + query["Mail"]+"<br>");
 
