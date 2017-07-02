@@ -3,9 +3,9 @@
 	"version" : "0.0.1",
 	"description" : "EIA2-Nodes",
 	"author" : "Valentine Deinert",
-	"main" : "eisdiele.html",
+	"main" : "DatabaseClient.html",
 	"scripts" : {
-		"start" : "node aufgabe_10/NodeTest.js"
+		"start" : "node aufgabe_11/DatabaseClient.js"
 	},
 	"engines" : {
 		"node" : "5.8.0"
